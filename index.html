@@ -14,15 +14,15 @@
     <div id="wrap">
         <header>
             <div id="h_left">
-                <h1><a href="https://jeongyookgak.com/index"><img src="./images/logo_black.svg" alt="정육각"></a></h1>
+                <h1><a href="./index.html"><img src="./images/logo_black.svg" alt="정육각"></a></h1>
                 <nav>
-                    <ul id="gnb">
+                    <ul class="gnb">
                         <li><a href="#">쇼핑하기</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="h_right">
-                <ul id="snb">
+                <ul id="lnb">
                     <li><a href="#">공지사항</a></li>
                     <li><a href="#">고객센터</a></li>
                     <li><a href="#">로그인</a></li>
@@ -33,19 +33,41 @@
         </header>
         <main>
             <div id="hero_bnr">
-                <div id="bnr_container">
-                    <div id="bnr_list">
-                        <a href="#" class="bnr"><img src="./images/web_main_openn.png" alt=""></a>
-                        <a href="#" class="bnr"><img src="./images/web_main_openn.png" alt=""></a>
-                        <a href="#" class="bnr"><img src="./images/web_main_openn.png" alt=""></a>
-                        <a href="#" class="bnr"><img src="./images/web_main_openn.png" alt=""></a>
-                    </div>  
-                    <button type="button" class="prev"><img src="./images/mainbanner_arrow.svg" alt="이전광고보기"></button>
-                    <button type="button" class="next"><img src="./images/mainbanner_arrow.svg" alt="다음광고보기"></button>
-                    <div id="pagenumber">
-                        <span>01</span>/
-                        <span>04</span>
-                    </div>
+                <ul id="bnr_container">
+                    <li class="bnr">
+                        <a href="#">
+                            <h1>정육각 한우<br>판매 재개 안내</h1>
+                            <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
+                            <img src="./images/web_main_openn.png" alt="">
+                        </a>
+                    </li>
+                    <li class="bnr">
+                        <a href="#">
+                            <h1>정육각 한우<br>판매 재개 안내</h1>
+                            <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
+                            <img src="./images/web_main_openn.png" alt="">
+                        </a>
+                    </li>
+                    <li class="bnr">
+                        <a href="#">
+                            <h1>정육각 한우<br>판매 재개 안내</h1>
+                            <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
+                            <img src="./images/web_main_openn.png" alt="">
+                        </a>
+                    </li>
+                    <li class="bnr">
+                        <a href="#">
+                            <h1>정육각 한우<br>판매 재개 안내</h1>
+                            <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
+                            <img src="./images/web_main_openn.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <button type="button" class="prev"><img src="./images/mainbanner_arrow.svg" alt="이전광고보기"></button>
+                <button type="button" class="next"><img src="./images/mainbanner_arrow.svg" alt="다음광고보기"></button>
+                <div id="page_number">
+                    <span>01</span>/
+                    <span>04</span>
                 </div>
             </div>
             <div id="category">
@@ -113,8 +135,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="contents">
-                <a href="#" class="contents_bnr"><img src="./images/web_curation_carousel.png" alt=""></a>
+            <div class="pork_wrap">
+                <a href="#" class="pork_bnr">
+                    <h1>초신선 돼지고기 <img src="./images/white_next.png" alt=""></h1>
+                    <p>입안 가득 퍼지는 풍부한 육즙과 살아있는 식감</p>
+                    <img src="./images/web_curation_carousel.png" alt="">
+                </a>
                 <div class="product_container">
                     <ul class="product_list">
                         <li class="product">
@@ -158,8 +184,8 @@
                 <button type="button" class="prev"><img src="./images/mainbanner_arrow.svg" alt="이전돼지고기보기"></button>
                 <button type="button" class="next"><img src="./images/mainbanner_arrow.svg" alt="다음돼지고기보기"></button>
             </div>
-            <div class="contents">
-                <a href="#" class="contents_bnr"><img src="./images/web-curation-carousel-251216-02.png" alt=""></a>
+            <div class="beef_wrap">
+                <a href="#" class="beef_bnr"><img src="./images/web-curation-carousel-251216-02.png" alt=""></a>
                 <div class="product_container">
                     <ul class="product_list">
                         <li class="product">
@@ -205,7 +231,7 @@
             </div>
         </main>
         <footer>
-            <div id="ft_1">
+            <div id="ft_top">
                 <div class="fnb">
                     <a href="#">이용약관</a>
                     <a href="#"><em>개인정보처리방침</em></a>
@@ -215,26 +241,26 @@
                     <a href="#"><img src="./images/instagram.svg" alt="정육각인스타그램 바로가기"></a>
                 </div>
             </div>
-            <div id="ft_2">
-                <div id="info">
+            <div class="ft_btm">
+                <div class="info">
                     <p><img src="./images/logo_black.svg" alt=""></p>
                     <address>
                         (주)정육각 대표이사:김재연 | 주소:경기도 김포시 고촌읍 아라육로 57번길 126
-                        <a href="#">[조회]</a>
+                        <a href="#" target="_blank">[조회]</a>
                     </address>
                     <p>&copy;2021 jeongyookgak lnc. All rights reserved.</p>
                 </div>
-                <div id="servicecenter">
+                <div class="service_center">
                     <dl>
-                        <dt><span>고객센터</span></dt>
-                        <dd><span>1800-0658</span></dd>
+                        <dt>고객센터</dt>
+                        <dd><em>1800-0658</em></dd>
                         <dd>월-금요일:08:30~17:00</dd>
                         <dd>점심시간:12:00~13:00</dd>
                         <dd>(주말 및 공휴일 휴무)</dd>
                     </dl>
-                    <div id="email">
-                        <p>이메일:<a href="#" target="_blank">help@yookgak.com</a></p>
-                        <div class="fnb">
+                    <div class="email">
+                        <p>이메일:<a href="#">help@yookgak.com</a></p>
+                        <div class="sc_fnb">
                             <a href="#">자주묻는 질문</a>
                             <a href="#">1:1 문의</a>
                         </div>
