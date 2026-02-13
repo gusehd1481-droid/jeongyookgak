@@ -28,34 +28,34 @@
                     <li><a href="#">로그인</a></li>
                     <li><a href="#">회원가입</a></li>
                 </ul>
-                <a href="#"><img src="./images/cart.svg" alt="장바구니"></a>
+                <a href="#" class="mycart"><img src="./images/cart.svg" alt="장바구니"></a>
             </div>
         </header>
         <main>
             <div id="hero_bnr"><!-- vp -->
                 <ul id="bnr_container">
-                    <li>
+                    <li><!-- bnr -->
                         <a href="#">
                             <h1>정육각 한우<br>판매 재개 안내</h1>
                             <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
                             <img src="./images/web_main_openn.png" alt="">
                         </a>
                     </li>
-                    <li>
+                    <li><!-- bnr -->
                         <a href="#">
                             <h1>정육각 한우<br>판매 재개 안내</h1>
                             <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
                             <img src="./images/web_main_openn.png" alt="">
                         </a>
                     </li>
-                    <li>
+                    <li><!-- bnr -->
                         <a href="#">
                             <h1>정육각 한우<br>판매 재개 안내</h1>
                             <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
                             <img src="./images/web_main_openn.png" alt="">
                         </a>
                     </li>
-                    <li>
+                    <li><!-- bnr -->
                         <a href="#">
                             <h1>정육각 한우<br>판매 재개 안내</h1>
                             <p>육즙 가득 진한 풍미의 숙성 한우를 즐겨보세요!</p>
@@ -66,8 +66,8 @@
                 <button type="button" class="prev"><img src="./images/mainbanner_arrow.svg" alt="이전광고보기"></button>
                 <button type="button" class="next"><img src="./images/mainbanner_arrow.svg" alt="다음광고보기"></button>
                 <div id="page_number">
-                    <span>01</span>/
-                    <span>04</span>
+                    <span class="present">01</span>/
+                    <span class="all">04</span>
                 </div>
             </div>
             <div id="category">
@@ -144,12 +144,14 @@
                 <div class="product_container">
                     <ul class="product_list">
                         <li class="product">
-                            <a href="#">
-                                <img src="./images/porkbelly_fresh_list.png" alt="">
+                            <div class="product_img">
+                                <a href="#"><img src="./images/porkbelly_fresh_list.png" alt=""></a>
+                                <a href="#"><img src="./images/cart.svg" alt=""></a><!-- 비로그인시<a>- 로그인화면으로 이동 | 로그인시<button>- 상품을 장바구니에 담기  -->
+                            </div>
+                            <a href="#" class="product_info">
                                 <h2>초신선 돼지 삼겹살 구이용 600g</h2>
                                 <p class="price">21,600원</p>
                             </a>
-                            <a href="#"><img src="./images/cart.svg" alt=""></a><!-- 비로그인시<a>- 로그인화면으로 이동 | 로그인시<button>- 상품을 장바구니에 담기  -->
                         </li>
                         <li class="product">
                             <a href="#">
