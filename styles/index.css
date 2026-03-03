@@ -3,31 +3,65 @@ body {}
 #wrap header {
     background-color:#000;
     display:inline-block;
-    width:100%;
+    width:100%; height:96px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
 }
 #wrap header * {color:#fff}
 #wrap header #h_left {
-    float:left;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
 }
-#wrap header #h_left h1 {}
+#wrap header #h_left h1 {width:200px; margin-right:20px;}
 #wrap header #h_left h1 a {}
 #wrap header #h_left h1 a img {
-    width:129px;
+    width:100%;
 }
 #wrap header #h_left nav {}
 #wrap header #h_left nav #gnb {}
 #wrap header #h_left nav #gnb li {}
-#wrap header #h_left nav #gnb li a {}
-#wrap header #h_right {
-    float:right;
+#wrap header #h_left nav #gnb li a {font-size:1.5rem;}
+#wrap header #h_right {}
+#wrap header #h_right .lnb {
+    display:flex;
+    flex-flow:row nowrap;
 }
-#wrap header #h_right .lnb {}
-#wrap header #h_right .lnb li {
-    float:left;
-}
+#wrap header #h_right .lnb li {}
 #wrap header #h_right .lnb li a {}
 #wrap header #h_right .lnb > a {}
 #wrap header #h_right .mycart {}
 #wrap header #h_right .mycart img {}
 #wrap main {}
+#wrap main #hero_bnr {}
+#wrap main #hero_bnr #bnr_container {}
+#wrap main #hero_bnr #bnr_container li {}
+#wrap main #hero_bnr #bnr_container li a {}
+#wrap main #hero_bnr #bnr_container li a h1 {}
+#wrap main #hero_bnr #bnr_container li a h1 br {}
+#wrap main #hero_bnr #bnr_container li a p {}
+#wrap main #hero_bnr #bnr_container li a img {}
+#wrap main #hero_bnr button img {}
+#wrap main #hero_bnr .prev {}
+#wrap main #hero_bnr .next {}
+#wrap main #hero_bnr #page_number {}
+#wrap main #hero_bnr #page_number span {}
+#wrap main #hero_bnr #page_number .present {}
+#wrap main #hero_bnr #page_number .all {}
+#wrap main #category {}
+#wrap main #category h1 {}
+#wrap main #category h1 em {}
+#wrap main #category #category_list {}
+#wrap main #category #category_list li {}
+#wrap main #category #category_list li a {}
+#wrap main #category #category_list li a img {}
+#wrap main #category #category_list li a h2 {}
+#wrap main .pork_wrap {}
+#wrap main .pork_wrap .pork_bnr {}
+#wrap main .pork_wrap .pork_bnr h1 {}
+#wrap main .pork_wrap .pork_bnr h1 img {}
+#wrap main .pork_wrap .pork_bnr p {}
 #wrap footer {}
