@@ -107,7 +107,7 @@ body {}
 }
 #wrap main .pork_wrap .pork_bnr h1 {font-size:2rem; font-weight:600; color:#fff; margin-bottom:10px;}
 #wrap main .pork_wrap .pork_bnr h1 img {}
-#wrap main .pork_wrap .pork_bnr p {font-size:1.13rem; color:#d9d9d9;}
+#wrap main .pork_wrap .pork_bnr p {font-size:1.13rem; color:#717171;}
 #wrap main .pork_wrap .product_container {}
 #wrap main .pork_wrap .product_container .product_list {}
 #wrap main .pork_wrap .product_container .product_list .product {}
@@ -124,7 +124,7 @@ body {}
 #wrap main .pork_wrap .next {}
 #wrap main .beef_wrap {width:100%; max-width:1184px; margin:0 auto;}
 #wrap main .beef_wrap .beef_bnr {
-    width:1184px; height:270px; display:block; margin:0 auto;
+    /* width:1184px; */ height:270px; display:block; margin:0 auto;
     background-image:url(../images/web-curation-carousel-251216-02.png);
     background-size:100%;
     padding:110px 60px;
@@ -154,7 +154,7 @@ body {}
     flex-flow:row nowrap;
     justify-content:space-between;
     gap:16px;
-    width:100%; /* max-width:1184px; */
+    width:100%; max-width:1184px;
 }
 #wrap main .product_container .product_list .product {width:calc((100% - 48px) / 4);}
 #wrap main .product_container .product_list .product .product_img {position:relative; z-index:9;}
@@ -168,12 +168,12 @@ body {}
 #wrap main .product_container .product_list .product .product_info h2 {}
 #wrap main .product_container .product_list .product .product_info h2 .price {}
 /* ======================================================footer */
-#wrap footer{
+#wrap footer {
     width:100%;
     background:#f5f5f5;
     padding:40px 0;
 }
-#wrap footer #ft_top{
+#wrap footer #ft_top {
     max-width:1184px;
     margin:0 auto;
     display:flex;
@@ -182,85 +182,91 @@ body {}
     padding-bottom:20px;
     border-bottom:1px solid #ddd;
 }
-#wrap footer #ft_top .fnb{
+#wrap footer #ft_top .fnb {
     display:flex;
+    flex-flow:row nowrap;
     gap:20px;
 }
 
-#wrap footer #ft_top .fnb a{
+#wrap footer #ft_top .fnb a {
     font-size:0.9rem;
 }
 
-#wrap footer #ft_top .fnb em{
+#wrap footer #ft_top .fnb em {
     font-weight:600;
 }
-#wrap footer #ft_top #install_sns{
+#wrap footer #ft_top #install_sns {
     display:flex;
+    flex-flow:row nowrap;
     align-items:center;
     gap:20px;
 }
 
-#wrap footer #ft_top #install_sns a{
+#wrap footer #ft_top #install_sns a {
     display:flex;
+    flex-flow:row nowrap;
     align-items:center;
     gap:6px;
     font-size:0.9rem;
-}
-
-#wrap footer #ft_top #install_sns img{
     width:20px;
 }
-#wrap footer .ft_btm{
+
+#wrap footer #ft_top #install_sns a img {
+    width:100%;
+}
+#wrap footer .ft_btm {
     max-width:1184px;
     margin:30px auto 0;
     display:flex;
+    flex-flow:row nowrap;
     justify-content:space-between;
 }
-#wrap footer .ft_btm .info p img{
-    width:120px;
+#wrap footer .ft_btm .info p {width:120px;}
+#wrap footer .ft_btm .info p img {
+    width:100%;
     margin-bottom:15px;
 }
 
-#wrap footer .ft_btm address{
-    font-style:normal;
+#wrap footer .ft_btm address {
     font-size:0.85rem;
     line-height:1.6;
     color:#666;
 }
 
-#wrap footer .ft_btm .info > p:last-child{
+#wrap footer .ft_btm .info > p:last-child {
     font-size:0.8rem;
     margin-top:10px;
 }
-#wrap footer .service_center dl dt{
+#wrap footer .service_center dl dt {
     font-weight:600;
     margin-bottom:10px;
 }
 
-#wrap footer .service_center dl dd{
+#wrap footer .service_center dl dd {
     font-size:0.9rem;
     margin-bottom:4px;
 }
 
-#wrap footer .service_center dl em{
+#wrap footer .service_center dl em {
     font-size:1.3rem;
     font-weight:700;
 }
-#wrap footer .service_center .email{
+#wrap footer .service_center .email {
     margin-top:20px;
 }
 
-#wrap footer .service_center .email p{
+#wrap footer .service_center .email p {
     font-size:0.9rem;
 }
 
-#wrap footer .service_center .sc_fnb{
+#wrap footer .service_center .sc_fnb {
     margin-top:10px;
     display:flex;
+    flex-flow:row nowrap;
     gap:10px;
 }
 
-#wrap footer .service_center .sc_fnb a{
+#wrap footer .service_center .sc_fnb a {
     font-size:0.85rem;
     text-decoration:underline;
 }
